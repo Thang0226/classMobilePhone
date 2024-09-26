@@ -9,15 +9,11 @@ class Mobile {
   }
 
   turnOn() {
-    if (this.state == false) {
-      this.state = true;
-    }
+    this.state = true;
   }
 
   turnOff() {
-    if (this.state == true) {
-      this.state = false;
-    }
+    this.state = false;
   }
 
   charge() {
